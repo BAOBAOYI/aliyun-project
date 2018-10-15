@@ -1,0 +1,275 @@
+span,
+div,
+p,
+a,
+h1,
+h2,
+h3,
+h4,
+input,
+i,
+ul,
+li,
+em,
+img,
+body,
+del {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font:12px/100% "微软雅黑";
+}
+
+a {
+    text-decoration: none;
+    color: #000;
+}
+
+input {
+    border: 0 none;
+    outline: 0 none;
+}
+
+img {
+    border: 0 none;
+    vertical-align: middle;
+}
+
+li {
+    list-style: none;
+}
+
+i ,
+em,
+strong{
+    font-style: normal;
+}
+
+h1,
+h2,
+h3,
+h4,
+strong{
+    font-weight: normal;
+}
+
+.clearfix::after {
+    content: ".";
+    display: block;
+    clear: both;
+    height: 0;
+    visibility: hidden;
+}
+
+.clearfix {
+    *zoom: 1;
+}
+
+.w {
+    width: 1200px;
+    margin: 0 auto;
+}
+/*初始化代码*/
+
+
+/*底部通栏开始*/
+
+.foot{
+    width: 100%;
+    height: 850px;
+    background-color: #373d41;
+}
+
+.foot .foot-bar {
+    height: 100%;
+    position: relative;
+}
+
+.foot-bar .heat{
+    width: 100%;
+    height: 425px;
+    border-bottom: 1px solid #4b5054;
+}
+
+.foot-bar .heat .counsel {
+    width: 225px;
+    height: 75px;
+    margin-top: 35px;
+}
+
+.foot-bar .heat  img.heZuo {
+    width: 60px;
+    height: 50px;
+    position: absolute;
+    top:35px;
+    left: 0;
+}
+
+.heat .share {
+    width: 199px;
+    height: 249px;
+    border-right: 1px solid #4b5054;
+    position: absolute;
+    top:30px;
+    left: 102px;
+}
+
+.heat .share span{
+    color: #d7d8d9;
+    line-height: 36px;
+    font-size: 16px;
+}
+
+.heat .share span:nth-child(2){
+    font-size: 20px;
+}
+
+.heat .share ul {
+    line-height: 36px;
+    font-size: 16px;
+    margin-top: 16px;
+}
+
+.heat .share ul a{
+    color: #9b9ea0;
+}
+
+.heat .serve {
+    margin-top: 35px;
+    float: left;
+}
+
+.heat .serve li{
+    padding-bottom: 20px;
+    font-size: 16px;
+}
+
+.heat .serve li:first-child{
+    padding-bottom: 26px;
+    color: #d7d8d9;
+}
+
+.heat .serve li a{
+    color: #888c8f;
+}
+
+.heat .serve3{
+    margin-left: 50px;
+}
+
+.heat .serve2 {
+    margin-left: 90px;
+}
+
+.heat .serve4{
+    margin-left: 90px;
+}
+
+.heat .serve1{
+    margin-left: 350px;
+}
+
+.heat .serve5 {
+    margin-left: 90px
+}
+
+.heat .serve5 li img.erWei{
+    width: 80px;
+    height: 80px;
+    display: inline-block;
+}
+
+.foot-bar .hot {
+    width: 100%;
+    height: 146px;
+    border-bottom: 1px solid #4b5054;
+    position: relative;
+}
+
+
+.foot-bar .hot .one {
+    position: absolute;
+    top: 40px;
+}
+
+.foot-bar .hot ul.number  li {
+    float: left;
+    font-size: 14px;
+    width: 113px;
+    color: #9b9ea0;
+}
+
+.foot-bar .hot .number li a{
+    color: #6f7477;
+}
+
+.foot-bar .hot .two {
+    position: absolute;
+    top: 70px;
+}
+
+.foot-bar .hot .three {
+    position: absolute;
+    top: 100px;
+}
+
+.foot-bar .touch {
+    position: relative;
+    width: 100%;
+    height: 276px;
+}
+
+.touch .join {
+    position: absolute;
+    top: 45px;
+}
+
+.touch .join li {
+    margin-right: 48px;
+    float: left;
+}
+.touch .join li a {
+    color: #9b9ea0;
+    font-size: 14px;
+}
+
+.touch .link {
+    position: absolute;
+    top: 123px;
+}
+
+.touch .link li {
+    margin-right: 10px;
+    float: left;
+}
+
+.touch .link li:last-child {
+    padding-top: 24px;
+}
+
+.touch .link li a {
+    color: #73777a;
+    font-size: 15px;
+}
+
+.touch p {
+    position: absolute;
+    top: 201px;
+    color: #73777a;
+    font-size: 15px;
+}
+
+.touch em{
+    position: absolute;
+    top: 227px;
+    color: #73777a;
+    font-size: 15px;
+}
+
+.touch em img {
+    width: 15px;
+    height: 15px;
+}
+/*底部通栏结束*/
